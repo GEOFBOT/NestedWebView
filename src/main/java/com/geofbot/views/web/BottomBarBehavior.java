@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.github.takahirom.webview_in_coodinator_layout;
+package com.geofbot.views.web;
 
 import android.content.Context;
 import android.support.design.widget.AppBarLayout;
@@ -24,6 +24,11 @@ import android.util.AttributeSet;
 import android.view.View;
 import android.widget.LinearLayout;
 
+/**
+ * Layout behavior for toolbars located at the bottom of the screen. When this
+ * behavior is used, the bottom toolbar will show and hide when scrolling the
+ * screen up (rather than when scrolling down which is the default behavior).
+ */
 public class BottomBarBehavior extends CoordinatorLayout.Behavior<LinearLayout> {
 
     private int defaultDependencyTop = -1;

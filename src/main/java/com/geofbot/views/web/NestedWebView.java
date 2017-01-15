@@ -14,7 +14,7 @@
  * limitations under the License.
  */
 
-package com.github.takahirom.webview_in_coodinator_layout;
+package com.geofbot.views.web;
 
 import android.content.Context;
 import android.support.v4.view.MotionEventCompat;
@@ -25,6 +25,9 @@ import android.util.AttributeSet;
 import android.view.MotionEvent;
 import android.webkit.WebView;
 
+/**
+ * A WebView that works with CoordinatorLayout and AppBarLayout scroll behavior.
+ */
 public class NestedWebView extends WebView implements NestedScrollingChild {
     private int mLastY;
     private final int[] mScrollOffset = new int[2];
