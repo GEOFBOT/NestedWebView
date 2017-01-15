@@ -1,5 +1,9 @@
-webview-in-coordinator-layout
+NestedWebView
 -----------------------------
+
+A WebView for scroll events with CoordinatorLayout, AppBarLayout, and friends.
+
+Originally made by [@takahirom](https://github.com/takahirom). [@GEOFBOT](https://github.com/GEOFBOT) packaged it and merged some fixes.
 
 ![coordinator-screen-image](https://cloud.githubusercontent.com/assets/1386930/13979570/b7235d0a-f11c-11e5-80e0-5ab6faa683e2.gif)
 
